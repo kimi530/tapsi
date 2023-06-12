@@ -1,0 +1,75 @@
+.second-child {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.service {
+    margin-top: 10rem;
+}
+.service1 img{
+    margin-left: 6rem;
+}
+.tabsiJobservices h2 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.tabsiJobservices p {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    width: 85%;
+    line-height: 2.3rem;
+    word-wrap: break-word;
+}
+.tabsiJobservices img {
+    width: 85%;
+}
+.tabsiJobservices a {
+    color: rgb(247, 65, 19);
+    text-decoration: none;
+}
+.tabsiJobservices Button {
+    padding: 1rem;
+    background-color: rgb(245, 76, 34);
+    width: 240px;
+    border-radius: .8rem;
+    margin-top: 1rem;
+}
+
+/*** Small Devices ***/
+@media (min-width:768px) and (max-width:991px) {
+    .tabsiJobservices p {
+        width: 100%;
+        font-size: 90%;
+    }
+}
+
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+   
+    .tabsiJobservices h2 {
+        font-size: 140%;
+    }
+    .tabsiJobservices p {
+        width: 100%;
+        font-size: 90%;
+    }
+    .tabsiJobservices Button {
+        width: 220px;
+        font-size: 90%;
+    }
+    .tabsiJobservices a {
+        font-size: 90%;
+    }
+    .service1 img {
+     width: 100%;
+     margin-left: 1rem;
+    }
+    .service2 img {
+        width: 100%;
+        margin-left: -2rem;
+    }
+    .service {
+        margin-top: 4rem;
+    }
+}

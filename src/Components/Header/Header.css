@@ -1,0 +1,37 @@
+.navbar-btn {
+    background-color: rgb(243, 88, 49);
+    color: #ffff;
+    width: 155px;
+    border: none;
+    text-align: center;
+    height: 45px;
+}
+.navbar-btn:hover {
+    background-color: rgb(243, 88, 49);
+}
+.navbar-link {
+    margin-left: 1rem;
+    font-size: .9rem;
+    color: rgb(59, 59, 59);
+}
+.navbar-link:hover {
+    color: rgb(243, 88, 49);
+}
+
+/*** Small Devices ***/
+@media (min-width:768px) and (max-width:991px) {
+    .tapsi-btn {
+        display: none;
+    }
+   
+}
+
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+    .tapsi-btn {
+        display: none;
+    }
+    .collapse {
+        direction: rtl;
+    }
+}

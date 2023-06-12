@@ -1,0 +1,76 @@
+.blog {
+    direction: rtl;
+}
+.blog h2 {
+    margin-top: 10rem;
+    margin-bottom: 3.5rem;
+    font-weight: bold;
+    font-size: 240%;
+}
+.blog img {
+   position: absolute;
+   width: 90%;
+   top: 0;
+   border-radius: .8rem;
+   right: 0;
+   left: 0;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: .5rem;
+ 
+}
+.blog 
+.each-div {
+    position: relative;
+    height: 450px;
+}
+.blog .each-div:hover {
+    box-shadow: 5px 5px 5px 5px #e4e2e2;     
+}
+
+.blog .detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 90%;
+}
+
+.detail p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.1rem;
+}
+
+/*** Medium Devices ***/
+@media (min-width:992px) and (max-width:1199px) {
+    .detail p {
+        margin-top: 2.5rem;
+        margin-bottom: 8rem;
+}
+}
+
+
+/*** small Devices ***/
+@media (min-width:768px) and (max-width:991px) {
+    .detail p {
+        margin-top: 2.5rem;
+        margin-bottom: 9rem;
+}
+}
+
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+    .last-div {
+        margin-bottom: 2rem;
+    }
+    .blog h2 {
+        font-size: 180%;
+    }
+}

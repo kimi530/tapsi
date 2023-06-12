@@ -1,0 +1,40 @@
+.benefits {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10rem;
+    position: relative;
+}
+.benefits img {
+    border-radius: 1rem;
+    width: 38%;
+    position: absolute;
+}
+.benefits h2 {
+    margin-bottom: 2rem;
+    width: 90%;
+  
+}
+.benefits h5 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+.benefits li {
+    line-height: 2.3rem;
+    
+}
+.benefits Button {
+    margin: 1.5rem 1rem;
+    width: 210px;
+    height: 55px;
+    border-radius: .8rem;
+}
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+  .benefits img {
+    width: 98%;
+    margin-bottom: 2rem;
+    margin-left: .3rem;
+    position: relative;
+  }
+}

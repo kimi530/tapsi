@@ -1,0 +1,57 @@
+.parallax {
+    margin-top: 10rem;
+}
+
+.containerdiv {
+    background: url('../../../public/home-img/parallax.jpeg');
+    background-size: cover;
+    padding: 20px 10%;
+    height: 190px;
+    background-attachment: fixed !important;
+    display: flex;
+    text-align: center;
+    color: white;
+    direction: rtl;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerdiv h3 {
+    font-size: 130%;
+}
+.containerdiv h3:hover + p {
+   display: block;
+   margin: 1rem;
+   font-size: 16px;
+}
+
+.containerdiv p {
+    display: none;
+}
+
+/*** Small Devices ***/
+@media (min-width:768px) and (max-width:991px) {
+    .containerdiv h3:hover + p {
+        font-size: 13px;
+    }
+    .containerdiv h3 {
+        font-size: 18px;
+    }
+}
+
+
+
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+    .containerdiv {
+        height: 310px;
+    }
+    .containerdiv h3 {
+        font-size: 15px;
+    }
+    .containerdiv h3:hover + p {
+        font-size: 13px;
+    }
+  
+}

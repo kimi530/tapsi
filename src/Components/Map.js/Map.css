@@ -1,0 +1,21 @@
+.map-container {
+    background: url('../../../public/home-img/map.svg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+    direction: rtl;
+    margin-top: 8rem;
+}
+
+.city-item  {
+    margin: .5rem;
+}
+.city-item p {
+    margin: .2rem;
+}
+/*** Extra small Devices ***/
+@media (max-width:767px) {
+    .map-container {
+        display: none;
+    }
+}

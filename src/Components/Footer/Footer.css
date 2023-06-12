@@ -1,0 +1,22 @@
+.footer {
+    direction: rtl;
+    background-color: black;
+    color: #ffff;
+}
+.footer h5 ,
+.footer h3 ,
+.footer h6 {
+    margin-top: 4rem;
+}
+.footer li {
+    list-style: none;
+}
+.footer a {
+    text-decoration: none;
+    color: #ffff;
+}
+.social-media i {
+    font-size: 1.5rem;
+    margin: .5rem;
+    display: inline-block;
+}
